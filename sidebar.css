@@ -1,4 +1,4 @@
-.sidebar{
+.sidebar {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -7,19 +7,24 @@
     background-color: #ffffff;
     z-index: 200;
     cursor: pointer;
-    padding-top: 5px; 
+    padding-top: 5px;
     display: block;
+    transition: 200ms;
+}
+.sidebar2{
+    overflow-x: hidden;
+    width: 40px;
+}
+.side-icons {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    column-gap: 16px;
+    margin-bottom: 5px;
+    padding: 0px 12px;
 }
 
-.side-icons{
-height: 40px;
-display: flex;
-align-items: center;
-justify-content: start;
-column-gap: 16px;
-margin-bottom: 5px;
-padding: 0px 12px;
-}
 /* .side-icons{
     height: 74px;
     display: flex;
@@ -27,15 +32,17 @@ padding: 0px 12px;
     align-items: center;
     justify-content: center;
 } */
-.side-icons:hover{
+.side-icons:hover {
     background-color: rgb(235, 235, 235);
     border-radius: 10px;
 }
-.side-icons img{
+
+.side-icons img {
     height: 24px;
     margin-bottom: 4px;
 }
-.icon-name{
+
+.icon-name {
     font-size: 14px;
     font-weight: 500;
 }
